@@ -38,13 +38,14 @@ header img {
 }
 .item img {
     width: 50px;
+    cursor: pointer;
 }
 footer p {
     text-align: center;
     margin: 0;
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     body {
         padding: 4em 1em;
         width: 50em;
